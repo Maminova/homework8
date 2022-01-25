@@ -4,40 +4,7 @@ import java.sql.Array;
 import java.util.Arrays;
 
 public class Main {
-//    public static void printSeparator() {
-//        System.out.println("+++++++++++++++");
-//        System.out.println("---------------");
-//    }
 
-    //    public static void printIssues(int issueCount) {
-//        System.out.println(issueCount);
-//    }
-
-//    public static boolean task2() {
-//        return (clientDeviceYear < 2015 && operatingSystem == 0);
-
-    //  public static int sum (int [] numbers) {
-//    }
-//        int sum = o;
-//        for (int i = 0; i < numbers.length; i++) {
-//            sum = sum + numbers[i];
-//        }
-//        return sum;
-//    }
-
-
-//        For example
-//    }
-//        public static void название метода () {
-//            Что именно должен сделать метод;
-//        }
-
-
-//    За пределами фигурных скобок переменные не выдны/
-//
-//    { Внутри фигурных скобок у каждой переменной должно быть уникальное имя }
-//
-//    их нужно объявлять снова.
 
     public static boolean isYearLeap(int year) {
         return (year % 4 == 0 && year % 100 != 0 || year % 400 == 0);
@@ -101,17 +68,7 @@ public class Main {
     }
         public static void main (String[]args){
             // write your code here
-//            int[] issuesByMonths = {4, 6, 7, 9, 2, 5, 12, 3, 7, 10, 6, 7, 1, 8,};
-//            printSeparator();
-//            for (int i = 0; i < issuesByMonths.length; i++) {
-//                printIssues(issuesByMonths[i]);
-//                if ((i + 1) % 3 == 0) {
-//                    printSeparator();
-//                }
-//            }
-//            printSeparator();
-//            int total = sum(issuesByMonths);
-//            printIssues(total);
+//
 
 
             //Задание 1
